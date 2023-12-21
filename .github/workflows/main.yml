@@ -28,7 +28,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./hellow-world-docker-action/
           file: hellow-world-docker-action/Dockerfile
           push: true
           tags: firewood2002/hello:latest
